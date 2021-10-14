@@ -1,57 +1,62 @@
-import phone from './../../static/images/phone.png';
-import logoGoogle from './../../static/images/gPlay.png';
-import logoApple from './../../static/images/appStore.png';
-import loginFake from './../../static/images/loginFake.png';
-import Image from 'next/image';
+import phone from "./../../static/images/phone.png";
+import logoGoogle from "./../../static/images/gPlay.png";
+import logoApple from "./../../static/images/appStore.png";
+import loginFake from "./../../static/images/loginFake.png";
+import Image from "next/image";
 
 export default function MainContent() {
   return (
-    <div>
-      <div class="row">
-        <div class="column iphoneColumn">
-          <div className="centered">
-            <Image
-              src={phone}
-              className="styleIphone"
-              width="371"
-              height="580"
+    <>
+      <section>
+        <div className="phones">
+          <Image src={phone} alt="" width="371" height="580" />
+        </div>
+        <div className="container">
+          <Image alt="" width="350" height="440" src={loginFake} />
+          <h4>Descarga la aplicación.</h4>
+          <div className="buttons">
+            <img
+              alt=""
+              src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_castilian_spanish-es.png/bec9a7397c42.png"
+              width="136"
+              height="40"
+            />
+            <img
+              alt=""
+              src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_spanish-es.png/723534f78879.png"
+              width="136"
+              height="40"
             />
           </div>
         </div>
+      </section>
 
-        <div class="row oneColumnLogin">
-          <div class="column ">
-            <div className="centered">
-              <Image
-                src={loginFake}
-                className="loginFake"
-              />
+      <style jsx>{`
+        section {
+          display: flex;
+        }
 
-              <h4 className="instaFont"> Descarga la aplicación.</h4>
-            </div>
+        .buttons {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 0.5rem;
+        }
 
-            <div class="row centered">
-              <div class="column">
-                <Image
-                  src={logoApple}
-                  className="styleBtns"
-                  width="371"
-                  height="80"
-                />
-              </div>
+        .phones {
+          display: none;
+        }
 
-              <div class="column">
-                <Image
-                  src={logoGoogle}
-                  className="styleBtns"
-                  width="371"
-                  height="80"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        .container {
+          text-align: center;
+        }
+
+        @media (min-width: 859px) {
+          .phones {
+            display: block;
+          }
+        }
+      `}</style>
+    </>
   );
 }
