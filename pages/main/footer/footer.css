@@ -1,10 +1,19 @@
+
+
 .floatLeft {
-  float: left;
-  display: flex;
-  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  margin: 0px 7px 5px 7px;
   font-family: Helvetica;
   color: gray;
+  align-items: center;
   justify-content: center;
+}
+
+.linksContainer {
+  align-items: center;
+  display: inline-block;
+  justify-content: center;
+  width: 100%;
 }
 
 .floatCenter {
@@ -14,6 +23,15 @@
   align-items: center;
   font-family: Helvetica;
   color: gray;
+}
+
+.footerCredits {
+  font-family: Helvetica;
+  color: gray;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 43px;
+  font-size: 0.80rem;
 }
 
 .avoidDefaultLinkColor {
@@ -31,7 +49,7 @@
   clear: both;
 }
 
-.separateBottom {
-  margin-bottom: 52px;
-  align-items: center;
+.separateTop {
+  padding-top: 30px;
 }
+

@@ -1,5 +1,10 @@
-@media (max-width: 876px) {
+@media (max-width: 859px) {
   .iphoneColumn {
     display: none;
+  }
+
+  .oneColumnLogin {
+    display: flex;
+    justify-content: center;
   }
 }

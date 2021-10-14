@@ -21,13 +21,13 @@ const linksName = [
 
 export default function InstaFooter() {
   return (
-    <div className="separateBottom centered">
-      <div>
+    <div className="separateTop">
+      <div className="linksContainer">
         {linksName.map((name) => {
           return (
-            <div className="floatLeft">
+            <div className="floatLeft ">
               <a
-                className='avoidDefaultLinkColor'
+                className="avoidDefaultLinkColor"
                 href="https://github.com/delalama"
                 rel="nofollow noopener noreferrer"
                 target="_blank"
@@ -38,11 +38,10 @@ export default function InstaFooter() {
           );
         })}
       </div>
-      <div>
-        <div className="floatCenter column centered">
+        <div className="footerCredits ">
           Español (España) © 2021 Instagram from Facebook
         </div>
-      </div>
+      
     </div>
   );
 }

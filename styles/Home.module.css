@@ -4,8 +4,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-
 }
 
 .main {
@@ -14,18 +12,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 38px 0 auto;
+  margin: auto;
+  margin-top: calc(20vh - 89px);
 }
 
 .footer {
-  width: 75%;
+  bottom: 68px;
+  color: white;
+  text-align: center;
   height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  margin-top: 80px ;
-  width: 50%;
+  max-width: 90vw;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 60px auto;
+  max-width: 100%;
+  padding-left: calc(20vw);
+  padding-right: calc(20vw);
 }
 
 .footer a {
@@ -77,7 +79,6 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  margin-top: 3rem;
 }
 
 .card {
