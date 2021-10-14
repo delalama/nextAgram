@@ -3,11 +3,21 @@
   width: 200px !important;
   height: 80px !important;
   margin: unset !important;
+
+  min-width: 200px !important;
+  max-width: 200px !important;
+  min-height: 80px !important;
+  max-height: 80px !important;
+}
+/* .styleBtns {
+  width: 200px !important;
+  height: 80px !important;
+  margin: unset !important;
   min-height: unset !important;
   max-height: unset !important;
   max-width: unset !important;
   min-width: unset !important;
-}
+} */
 
 .styleLoginFake {
   display: flex;
@@ -23,13 +33,13 @@
 .styleIphone {
   display: flex;
   width: 450px !important;
-  height: 700px !important;
+  height: 618px !important;
   margin: unset !important;
 
   min-width: 450px !important;
   max-width: 450px !important;
-  min-height: 750px !important;
-  max-height: 750px !important;
+  min-height: 618px !important;
+  max-height: 618px !important;
 }
 
 .instaFont {
@@ -48,8 +58,16 @@
 .column {
   margin: 0 auto;
   float: left;
-  width: 50%;
+  width: 450px;
   padding: 10px;
+  margin: auto;
+}
+
+.smallColumn {
+  margin: 0 auto;
+  float: left;
+  width: 190px;
+  padding: 8px;
   margin: auto;
 }
 
@@ -57,11 +75,6 @@
   margin: auto;
 }
 
-.row:after {
-  content: '';
-  display: table;
-  clear: both;
-}
 
 .centered {
   margin: auto;

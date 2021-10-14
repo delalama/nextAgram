@@ -8,17 +8,17 @@ export default function MainContent() {
   return (
     <div>
       <div class="row">
-        <div class="column">
+        <div class="column iphoneColumn">
           <div className="centered">
             <Image src={phone} className="styleIphone" />
           </div>
         </div>
         <div class="column">
           <div className="centered">
-            <Image src={loginFake} />
+            <Image src={loginFake} className="styleIphone" />
             <h4 className="instaFont"> Descarga la aplicación.</h4>
 
-            <div class="column">
+            <div class="smallColumn">
               <div className="centered">
                 <Image src={logoApple} className="styleBtns" />
               </div>

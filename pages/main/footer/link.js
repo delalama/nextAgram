@@ -23,8 +23,8 @@ const linksName = [
 
 export default function InstaFooter() {
   return (
-    <Container className="separateBottom">
-      <div width='50vw'>
+    <Container className="separateBottom centered">
+      <div>
         {linksName.map((name) => {
           return (
             <div className="floatLeft">
