@@ -1,0 +1,38 @@
+.floatLeft {
+  float: left;
+  display: flex;
+  margin: 10px 10px 10px 10px;
+  font-family: Helvetica;
+  color: gray;
+  justify-content: center;
+}
+
+.floatCenter {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica;
+  color: gray;
+}
+
+.avoidDefaultLinkColor {
+  color: gray; 
+  text-decoration: none
+}
+
+.avoidDefaultLinkColor:hover
+{   
+  text-decoration: none;
+  color: gray;
+}
+
+.clearBoth {
+  clear: both;
+}
+
+.separateBottom {
+  margin-bottom: 52px;
+  display: list-item;
+  align-items: center;
+}
