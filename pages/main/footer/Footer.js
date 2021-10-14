@@ -1,5 +1,3 @@
-import { Container, Row, Col } from 'react-bootstrap';
-
 const linksName = [
   'Información',
   'Blog',
@@ -23,7 +21,7 @@ const linksName = [
 
 export default function InstaFooter() {
   return (
-    <Container className="separateBottom centered">
+    <div className="separateBottom centered">
       <div>
         {linksName.map((name) => {
           return (
@@ -40,13 +38,12 @@ export default function InstaFooter() {
           );
         })}
       </div>
-      <h1> </h1>
       <div>
-        <Col xs={10} className="floatCenter">
+        <div className="floatCenter column centered">
           Español (España) © 2021 Instagram from Facebook
-        </Col>
+        </div>
       </div>
-    </Container>
+    </div>
   );
 }
 

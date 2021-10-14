@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import InstaFooter from './main/footer/link';
+import InstaFooter from './main/footer/Footer';
 import MainContent from './main/mainContent/MainContent';
 
 export default function Home() {

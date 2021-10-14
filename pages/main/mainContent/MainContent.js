@@ -10,29 +10,30 @@ export default function MainContent() {
       <div class="row">
         <div class="column iphoneColumn">
           <div className="centered">
-            <Image src={phone} className="styleIphone" />
+            <Image src={phone} className="styleIphone"/>
           </div>
         </div>
-        <div class="column">
-          <div className="centered">
-            <Image src={loginFake} className="styleIphone" />
-            <h4 className="instaFont"> Descarga la aplicación.</h4>
 
-            <div class="smallColumn">
-              <div className="centered">
+        <div class="row">
+          <div class="column">
+            <div className="centered">
+              <Image src={loginFake} />
+              <h4 className="instaFont"> Descarga la aplicación.</h4>
+            </div>
+
+            <div class="row centered">
+              <div class="column">
                 <Image src={logoApple} className="styleBtns" />
               </div>
-            </div>
-            <div class="column">
-              <div className="centered">
+
+              <div class="column">
                 <Image src={logoGoogle} className="styleBtns" />
               </div>
             </div>
+
           </div>
         </div>
       </div>
-
-      <div></div>
     </div>
   );
 }
