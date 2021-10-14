@@ -1,0 +1,68 @@
+.styleBtns {
+  display: flex;
+  width: 200px !important;
+  height: 80px !important;
+  margin: unset !important;
+  min-height: unset !important;
+  max-height: unset !important;
+  max-width: unset !important;
+  min-width: unset !important;
+}
+
+.styleLoginFake {
+  display: flex;
+  width: 200px !important;
+  height: 80px !important;
+  margin: unset !important;
+  min-height: unset !important;
+  max-height: unset !important;
+  max-width: unset !important;
+  min-width: unset !important;
+}
+
+.styleIphone {
+  display: flex;
+  width: 450px !important;
+  height: 700px !important;
+  margin: unset !important;
+
+  min-width: 450px !important;
+  max-width: 450px !important;
+  min-height: 750px !important;
+  max-height: 750px !important;
+}
+
+.instaFont {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica;
+  color: black;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  margin: 0 auto;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+}
+
+.row {
+  margin: auto;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.centered {
+  margin: auto;
+}
